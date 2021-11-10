@@ -39,10 +39,10 @@ class DataController extends Controller
                 return back()->with('message', "La siguiente operación $request->dato corresponde a una división");
                 break;
 
-            case preg_match("/^(0|[1-9][0-9]*)$/", $request->dato):
+            case preg_match("/^(0|[-1-9][0-9]*)$/", $request->dato):
                 return back()->with('message', "El dato $request->dato corresponde a un valor numerico de tipo entero (int)");
                 break;
-            case preg_match("/^[+-]?([0-9]+\.?[0-9]*|\.[0-9]+)$/", $request->dato):
+            case preg_match("/^([-0-9]+[.]([0-9]+))?$/", $request->dato):
                 return back()->with('message', "El dato $request->dato corresponde a un valor numerico de tipo decimal (float)");
                 break;
             case $request->dato == "true" || $request->dato == "false":
