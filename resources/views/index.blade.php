@@ -5,7 +5,10 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">{{ __('Tipos de datos') }}</div>
+                    <div class="card-header">{{ __('App sobre tipos de datos') }}</div>
+                    Estudiante: Zarate Carreño José Valentín
+                    Asignatura: Programacion Lógica y Funcional. Grupo: ISB
+
                         <div class=" text-justify mx-4 mt-2 ">
                           <div class="font-weight-bold text-success">Instrucciones:</div> Desarrollar una app la cual me permita saber el tipo de dato que introduzco, y el tipo de operaciones 
                           que puedo desarrollar con el o para que lo puedo usar, y me muestre un ejemplo de como se usa.        
