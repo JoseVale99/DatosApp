@@ -7,8 +7,8 @@
                 <div class="card">
                     <div class="card-header">{{ __('App sobre tipos de datos') }}</div>
                     <p class="text-dark mx-3  mt-3 font-weight-bold">Estudiante: Zarate Carreño José Valentín</p>
-                    <p class="text-dark font-weight-bold"> Asignatura: Programacion Lógica y Funcional.</p>
-                    <p class="text-dark font-weight-bold">Grupo: ISB</p>
+                    <p class="text-dark  mx-3 font-weight-bold"> Asignatura: Programacion Lógica y Funcional.</p>
+                    <p class="text-dark mx-3 font-weight-bold">Grupo: ISB</p>
 
                     <div class=" text-justify mx-4 mt-2 ">
                         <div class="font-weight-bold text-success">Instrucciones:</div> Desarrollar una app la cual me
