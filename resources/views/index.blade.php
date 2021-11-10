@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">{{ __('App sobre tipos de datos') }}</div>
-                    <div class="container">
+                    <div class="container mx-4 mt-3">
                         <div class="row text-dark">
                             <div class="col font-weight-bold">Estudiante:</div>
                             <div class="col">Zarate Carreño José Valentín</div>
