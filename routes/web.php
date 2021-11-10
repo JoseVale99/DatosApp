@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/index', [DataController::class, 'index'])->name('data.index');
-Route::post('/index/store', [DataController::class, 'store'])->name('data.store');
+Route::get('/', [DataController::class, 'index'])->name('data.index');
+Route::post('/store', [DataController::class, 'store'])->name('data.store');
