@@ -45,6 +45,12 @@
                                   <div class="w-100"></div>
                                   <div class="col">¡Hola Mundo!</div>
                                   <div class="col">cadena (string)</div>
+                                  <div class="w-100"></div>
+                                  <div class="col">true</div>
+                                  <div class="col">Valor booleano (boolean)</div>
+                                  <div class="w-100"></div>
+                                  <div class="col">false</div>
+                                  <div class="col">Valor booleano (boolean)</div>
                                   
                                 </div>
                               </div>
