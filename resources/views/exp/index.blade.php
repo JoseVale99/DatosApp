@@ -41,7 +41,7 @@
                                     <div class="col font-weight-bold">Salida</div>
                                     <div class="w-100"></div>
                                     <div class="col"> 7>5 </div>
-                                    <div class="col">Expresión lógica</div>
+                                    <div class="col">Expresión relacional</div>
                                     <div class="w-100"></div>
                                     <div class="col">1 and 0</div>
                                     <div class="col">Expresión lógica</div>
