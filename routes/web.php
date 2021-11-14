@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\DataController;
 use App\Http\Controllers\ExpresionController;
+use App\Http\Controllers\AppExpresionesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,6 @@ Route::post('/store', [DataController::class, 'store'])->name('data.store');
 Route::get('/expresiones', [ExpresionController::class, 'index'])->name('exp.index');
 Route::post('/expresiones/store', [ExpresionController::class, 'store'])->name('exp.store');
 
+// programa de expresiones2 
+Route::get('/exp', [AppExpresionesController::class, 'index'])->name('exp_app.index');
+Route::post('/exp/store', [AppExpresionesController::class, 'store'])->name('exp_app.store');
