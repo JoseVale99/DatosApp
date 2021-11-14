@@ -20,7 +20,7 @@ class ExpresionController extends Controller
 
         switch (true) {
             case is_null($request->dato):
-                return back()->with('message_error', "¡Por favor ingrese un dato inutil!");
+                return back()->with('message_error', "¡Por favor ingrese un dato valido!");
                 break;
             case preg_match("/^([0-9 .]+([= > < !][=][0-9.]+)+)?$/", $request->dato) || preg_match("/^([0-9 .]+([= > < !][=][0-9.]+([<>][0-9.]+))+)?$/", $request->dato) || preg_match("/^([0-9 .]+([> <][0-9.]+)+)?$/", $request->dato):
                 return back()->with('message', "relacional $request->dato");
