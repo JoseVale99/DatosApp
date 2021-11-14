@@ -20,14 +20,22 @@
      "https://cdn-icons-png.flaticon.com/512/3003/3003561.png" 
              type = "image/x-icon">
     <!-- Styles -->
-    <link href="{{secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ecure_asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-lg">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Tipos de datos
+                    <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                      Tipos de datos
+                      </button> 
+                </a>
+
+                <a class="navbar-brand" href="{{ url('/expresiones') }}">
+                    <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                        Expresiones
+                      </button> 
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
