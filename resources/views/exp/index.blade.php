@@ -70,8 +70,7 @@
                                 </div>
                             @endif
                             <div class="row justify-content-center">
-                                <label class="col-sm-2 col-form-label mt-3 font-weight-bold">Datos de
-                                    entrada</label>
+                                <label class="col-sm-2 col-form-label mt-3 font-weight-bold">Ingrese una expresión</label>
                                 <div class="col-md-auto mt-3">
                                     <input type="text" name="dato" class="form-control"
                                         placeholder="Ingrese un dato p. Ej., 0 or 0">
