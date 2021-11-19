@@ -2,6 +2,7 @@
 use App\Http\Controllers\DataController;
 use App\Http\Controllers\ExpresionController;
 use App\Http\Controllers\AppExpresionesController;
+use App\Http\Controllers\FuncionesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +26,10 @@ Route::post('/expresiones/store', [ExpresionController::class, 'store'])->name('
 // programa de expresiones2 
 Route::get('/exp', [AppExpresionesController::class, 'index'])->name('exp_app.index');
 Route::post('/exp/store', [AppExpresionesController::class, 'store'])->name('exp_app.store');
+
+
+//  programa; Actividad de Tipos de datos y programación funcional
+Route::get('/function', [FuncionesController::class, 'index'])->name('func.index');
+Route::post('/function/store', [FuncionesController::class, 'store'])->name('func.store');
+Route::post('/function/ok', [FuncionesController::class, 'getdata'])->name('func.data');
+
