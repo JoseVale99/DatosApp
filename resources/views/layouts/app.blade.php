@@ -10,7 +10,7 @@
     <title>App</title>
 
     <!-- Scripts -->
-    <script src="{{ secure_asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
         {{-- secure --}}
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -20,7 +20,7 @@
      "https://cdn-icons-png.flaticon.com/512/3003/3003561.png" 
              type = "image/x-icon">
     <!-- Styles -->
-    <link href="{{secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -40,6 +40,12 @@
                 <a class="navbar-brand" href="{{ url('/exp') }}">
                     <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
                     Actividad Expresiones II
+                      </button> 
+                </a>
+
+                <a class="navbar-brand" href="{{ url('/function') }}">
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                   Ecuaciones
                       </button> 
                 </a>
 
