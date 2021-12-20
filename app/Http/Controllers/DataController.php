@@ -18,7 +18,6 @@ class DataController extends Controller
     {
 
         // Type of operations
-
         // $var = str_replace("/","|",$request->dato);
        
         switch (true) {
