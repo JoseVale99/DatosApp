@@ -20,7 +20,7 @@
      "https://cdn-icons-png.flaticon.com/512/3003/3003561.png" 
              type = "image/x-icon">
     <!-- Styles -->
-    <link href="{{secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
