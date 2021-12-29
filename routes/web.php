@@ -2,6 +2,7 @@
 use App\Http\Controllers\DataController;
 use App\Http\Controllers\ExpresionController;
 use App\Http\Controllers\AppExpresionesController;
+use App\Http\Controllers\ParadigmaController;
 use App\Http\Controllers\FuncionesController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,4 +33,8 @@ Route::post('/exp/store', [AppExpresionesController::class, 'store'])->name('exp
 Route::get('/function', [FuncionesController::class, 'index'])->name('func.index');
 Route::post('/function/store', [FuncionesController::class, 'store'])->name('func.store');
 Route::post('/function/ok', [FuncionesController::class, 'getdata'])->name('func.data');
+
+//  Estilos de programación
+Route::get('/Paradigma', [ParadigmaController::class, 'index'])->name('paradigma.index');
+Route::post('/Paradigma/ok', [ParadigmaController::class, 'store'])->name('paradigma.store');
 
