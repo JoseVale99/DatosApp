@@ -1,0 +1,8 @@
+.color{
+ background: rgb(141, 141, 141);
+}
+.nav-link:hover{
+    display: inline-block;
+    color: rgb(7, 7, 7);
+    background-color: rgba(163, 157, 157, 0.685);
+}
