@@ -4,6 +4,7 @@ use App\Http\Controllers\ExpresionController;
 use App\Http\Controllers\AppExpresionesController;
 use App\Http\Controllers\ParadigmaController;
 use App\Http\Controllers\FuncionesController;
+use App\Http\Controllers\HornController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,3 +39,6 @@ Route::post('/function/ok', [FuncionesController::class, 'getdata'])->name('func
 Route::get('/Paradigma', [ParadigmaController::class, 'index'])->name('paradigma.index');
 Route::post('/Paradigma/ok', [ParadigmaController::class, 'store'])->name('paradigma.store');
 
+// clausulas de horn
+Route::get('/horn', [HornController::class, 'index'])->name('horn.index');
+Route::post('/horn/ok', [HornController::class, 'store'])->name('horn.store');
