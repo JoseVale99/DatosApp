@@ -55,6 +55,10 @@
                     
                     Paradigmas
                  </a>
+                 <a class="nav-link " href="{{ url('/horn') }}">
+                    Resolución SLD
+                  
+                 </a>
 
             </div>
         </div>
